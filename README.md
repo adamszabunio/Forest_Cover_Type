@@ -5,7 +5,7 @@ Analysis of "Forest Cover Type" Dataset from Kaggle
 Dataset:
 ------
 Tree types found in the Roosevelt National Forest in Colorado
-https://www.kaggle.com/uciml/forest-cover-type-dataset
+[Forest Cover Type Kaggle Dataset](https://www.kaggle.com/uciml/forest-cover-type-dataset)
 
 Context
 -------
