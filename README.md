@@ -1,4 +1,4 @@
-# Forest_Cover_Type
+# Forest Cover Type
 ======
 Analysis of "Forest Cover Type" Dataset from Kaggle
 
