@@ -5,9 +5,10 @@ Analysis of "Forest Cover Type" Dataset from Kaggle
 Included in Repository: 
 
 [EDA (Exploratory Data Analysis)](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/)
+
 ![](EDA/images/eda.img?raw=true)
 
-Random Forests
+[Random Forests on Random Forests](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests/)
 
 Boosting
 

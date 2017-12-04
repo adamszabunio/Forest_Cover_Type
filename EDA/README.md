@@ -2,8 +2,16 @@
 
 ![](images/eda.img?raw=true)
 
-EDA for tree types found in the Roosevelt National Forest in Colorado.
+EDA and simple model fitting for tree types found in the Roosevelt National Forest in Colorado.
 [Forest Cover Type Kaggle Dataset](https://www.kaggle.com/uciml/forest-cover-type-dataset)
+
+[Presentation for First Semester of M.S. Data Science Program](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/EDA_for_presentation)
+
+[Additional Presentation Material](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/Further_EDA_and_Logistic_Regression)
+
+Presentation concludes with a call for Feature Scaling and/or new model selection. 
+
+[Continued Analysis via Decision Tree Based models](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests)
 
 Context
 -------
