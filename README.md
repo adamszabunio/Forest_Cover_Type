@@ -40,7 +40,8 @@ Remaining data fields include:
 - Elevation: Elevation in meters 
 - Aspect: Aspect in degrees azimuth 
 - Slope: Slope in degrees 
-- Horizontal Distance To Hydrology: Horz Dist to nearest surface water features Vertical Distance To Hydrology: Vert Dist to nearest surface water features 
+- Horizontal Distance To Hydrology: Horz Dist to nearest surface water features 
+- Vertical Distance To Hydrology: Vert Dist to nearest surface water features 
 - Horizontal Distance To Roadways: Horz Dist to nearest roadway 
 - Hillshade 9am (0 to 255 index): Hillshade index at 9am, summer solstice 
 - Hillshade Noon (0 to 255 index): Hillshade index at noon, summer solstice 
