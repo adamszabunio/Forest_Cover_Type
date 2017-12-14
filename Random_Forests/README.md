@@ -14,5 +14,5 @@ A notebook exploring this algorithm on the [Forest Cover Type Kaggle Dataset](ht
 
 Furthermore, I begin to explore the speed and accuracy of [boosting algorithims](ada_boost_vs_random_forests.ipynb)
 
-[Continued Analysis of Boosting Algorithims and Feature Importances via Natural Language Processing (NLP)](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/NLP)
+[Continued Analysis of Boosting Algorithims and Feature Importances via Natural Language Processing (NLP)](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Boosting_and_NLP)
 
