@@ -4,15 +4,13 @@ Analysis of "Forest Cover Type" Dataset from Kaggle
 ------------------------------------------------
 Included in Repository: 
 
-[EDA (Exploratory Data Analysis)](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/)
+[EDA (Exploratory Data Analysis)](EDA/) of the Forest Cover Type Dataset. This directory contains the preliminary data exploration conducted during the first semester of my Masters of Data Science program (Early 2017). 
 
 ![](EDA/images/eda.img?raw=true)
 
-[Random Forests on Random Forests](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests/)
+[Random Forests on Random Forests](Random_Forests/) introduces tree-based machine learning alogorithms. 
 
-Boosting
-
-Feature Generation and NLP
+[Boosting, Feature Generation and NLP](Boosting_and_NLP/) takes a comical approach to NLP (Natural Language Processing) and XGBOOST (Extreme Gradient Boosting)
 
 Dataset:
 ------

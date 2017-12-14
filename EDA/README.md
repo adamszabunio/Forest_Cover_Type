@@ -2,20 +2,25 @@
 
 ![](images/eda.img?raw=true)
 
-EDA and simple model fitting for tree types found in the Roosevelt National Forest in Colorado.
-[Forest Cover Type Kaggle Dataset](https://www.kaggle.com/uciml/forest-cover-type-dataset)
+[Presentation for First Semester of M.S. Data Science Program](EDA_for_presentation.ipynb) EDA for tree types found in the Roosevelt National Forest in Colorado.
 
-[Presentation for First Semester of M.S. Data Science Program](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/EDA_for_presentation.ipynb)
-
-[Additional Presentation Material](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA/Further_EDA_and_Logistic_Regression.ipynb)
+[Additional Presentation Material](Further_EDA_and_Logistic_Regression.ipynb) Continued EDA and simple stats model fitting for OVR logistic regression (One-vs-Rest Classification).
+- This notebook compares three models, 
+    - Model with only continuous features. 
+    - Model with only categorical features.
+    - Model combining all features from the previous two models.
+    
+- All models have very high accuracy, however this is a terrible measure as the accuracy is highly skewed by the massive class imbalances
+- Model with only continuous features has the lowest precision. Much lower than 4 categorical features (albeit these were handpicked after extensive EDA).
+- Not surprisingly the model with a combination of categorical and continuous features outpreforms the other two models.
 
 Presentation concludes with a call for Feature Scaling and/or new model selection. 
 
-[Continued Analysis via Decision Tree Based models](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests)
+[Continued Analysis via Decision Tree Based models.](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests)
 
 Context
 -------
-This dataset contains tree observations from four areas of the Roosevelt National Forest in Colorado. All observations are cartographic variables (no remote sensing) from 30 meter x 30 meter sections.
+This [dataset](https://www.kaggle.com/uciml/forest-cover-type-dataset) contains tree observations from four areas of the Roosevelt National Forest in Colorado. All observations are cartographic variables (no remote sensing) from 30 meter x 30 meter sections.
 
 Content
 -------
