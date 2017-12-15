@@ -4,7 +4,11 @@ This directory take a stab at adding humor to NLP and Extreme Gradient Boosting.
 
 ![](images/feature_importances.png?raw=true)
 
-Feature importances, as the name suggests, rate how important each feature is for the decision a tree makes. To generate these scores, I used a [random forest classifier](Feature_Importances.ipynb). Feature importance scores are normalized between "0" and "1", where "0" indicates the feature is not used at all and "1" indicates the feature perfectly predicts the target. As can be seen above, 10 of the features are excellent predictors, whereas the other 44 are very poor predictors. Besides Feature 15 ('Wilderness_Area4': "Cache la Poudre Wilderness Area"), the other 43 features are terrible predictors. 
+- Feature importances, as the name suggests, rate how important each feature is for the decision a tree makes. 
+- To generate the above scores for the Forest Cover Type Dataset, I used a [random forest classifier](Feature_Importances.ipynb). Previous work with random forests can be found [here](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests). 
+- Feature importance scores are normalized between "0" and "1", where "0" indicates the feature is not used at all and "1" indicates the feature perfectly predicts the target. 
+- As can be seen above, 10 of the features are excellent predictors, whereas the other 44 are very poor predictors. 
+- Besides Feature 15 ('Wilderness_Area4': "Cache la Poudre Wilderness Area"), the other 43 features are poor predictors. 
 
 #### It seems like the logical thing to do would be to eliminate the first 10 (MOST IMPORTANT) features and only use the remaining 44 (LEAST IMPORTANT) features.  
 
@@ -14,7 +18,7 @@ Clearly, this is not a wise decision. Nonetheless, I take on the challenge of us
 
 For more information on the dataset, you can check out [previous EDA](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/EDA) and [model fitting](https://github.com/adamszabunio/Forest_Cover_Type/tree/master/Random_Forests). Additonal information in the Appendix.
 
-
+------
 First, due to large class imbalances, I randomly undersample the dataset to have an equal number of samples for each class. 
 - Note, this reduces the dataset to 3.3% of the original size. 
 - ≈3% of the data and the 44 least informative features... This is gonna be fun!
@@ -42,15 +46,15 @@ After transforming all samples in this manner, the dataset is ready for analysis
 
 ### NLP
 --------
-I begin with Topic Modeling. [NMF (Non-Negative Matrix Factorization) and LDA (LatentDirichletAllocation)](NMF_LDA.ipynb)
+Now that I have a corpus (dictionary of vocabulary, collocations in this case), I begin with Topic Modeling. Topic modeling is used to discover the topics that are present in a corpus. Experimentation can be found here: [NMF (Non-Negative Matrix Factorization) and LDA (LatentDirichletAllocation)](NMF_LDA.ipynb)
 
 Wow, Topic Modeling was not the way to go. Even with my hack accuracy metric of ≈60% 'accuracy'
 
-Instead, lets try two extremes:
+Instead, let's try two extremes:
 - A classic NLP Classification model, Naive Bayes (as a baseline)
 - XGBoost (Xtreme Gradient Boosting) 
 
-XGBoost may be a bit of overkill in this case, but hey, this repo hasn't been about good decisions. Let's keep the trend going. [Naive Bayes and XGBoost](Naive_Boosting.ipynb)
+XGBoost may be a bit of overkill in this case, but hey, this experiment hasn't been about good decisions. Let's keep the trend going. [Naive Bayes and XGBoost](Naive_Boosting.ipynb)
 
 
 Below is an image of the log loss score for the train and test set of a XGBoost model with 1000 estimators.
